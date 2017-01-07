@@ -8,5 +8,5 @@ title: Blog
       {{ post.date | date: '%B %d, %Y' }}
     </span>
     <br></br>
-    <h5>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</h5>
+    <h5>{{ post.excerpt | truncatewords: 50 | remove: '<p>' | remove: '</p>' }}</h5>
 {% endfor %}
