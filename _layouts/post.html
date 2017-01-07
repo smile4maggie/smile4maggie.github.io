@@ -7,4 +7,5 @@ layout: page
 <span class="date">
   {{ page.date | date: '%B %d, %Y' }}
 </span>
-<h5>{{ content }}</h5>
+<br></br>
+<h5>{{ content | remove: '<p>' | remove: '</p>' }}</h5>

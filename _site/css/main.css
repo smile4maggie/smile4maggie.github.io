@@ -57,7 +57,17 @@ h4 {
   letter-spacing: 1.33px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  transition-duration: 1.3s;
+  -webkit-transition-duration: 1.3s;
 }
+
+h4:hover{
+  color: lightgray;
+  cursor: pointer;
+  transition-duration: 1.3s;
+  -webkit-transition-duration: 1.3s;
+}
+
 
 h5 {
   font-size: 15px;
@@ -80,7 +90,7 @@ h6 {
 p {
   font-size: 20px;
   font-weight: 100;
-  color: #black;
+  color: black;
   line-height: 85%;
   letter-spacing: 1.33px;
   text-align: center;
@@ -106,7 +116,7 @@ p.nav {
 }
 
 p.nav:hover {
-  color: white;
+  color: lightgray;
   cursor: pointer;
 }
 

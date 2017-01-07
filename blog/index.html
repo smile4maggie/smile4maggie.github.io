@@ -7,5 +7,6 @@ title: Blog
     <span class="date">
       {{ post.date | date: '%B %d, %Y' }}
     </span>
-    <h5>{{ post.excerpt }}</h5>
+    <br></br>
+    <h5>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</h5>
 {% endfor %}
