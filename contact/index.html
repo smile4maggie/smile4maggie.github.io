@@ -2,16 +2,15 @@
 layout: page
 title: Contact
 ---
-<h4>
+<h6>
     Shoot me an email: <br>
     maggiedluo@gmail.com
-</h4>
+</h6>
 <br>
-<form action="https://formspree.io/maggiedluo@gmail.com"
-      method="POST">
-    <input type="email" style="width: 300px;" placeholder="Your Email" name="_replyto">
-    <br><br>
-    <input type="text" style="height: 200px; width: 300px;" name="name">
-    <br><br>
-    <input type="submit" value="Send">
+<form method="POST" action="http://formspree.io/maggiedluo@gmail.com">
+  <input type="email" style="width: 300px;" name="email" placeholder="Your email" required>
+  <br><br>
+  <textarea style="width: 300px; height: 200px;" name="message" placeholder="Your message" required></textarea>
+  <br><br>
+  <button type="submit">Send</button>
 </form>

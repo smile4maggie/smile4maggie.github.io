@@ -21,6 +21,10 @@ li {
 	 padding: 7px 7px 0px 7px;
 }
 
+button {
+
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -80,11 +84,15 @@ h5 {
 }
 
 h6 {
-  font-family: 'Cardo', sans-serif;
-  font-size: 15px;
-  margin: auto;
-  width: 33%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
   letter-spacing: 1.33px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  transition-duration: 1.3s;
+  -webkit-transition-duration: 1.3s;
 }
 
 p {
