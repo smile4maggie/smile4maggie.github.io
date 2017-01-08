@@ -3,6 +3,7 @@ layout: post
 title: Setting Up my Website
 ---
 I literally just spent the past 2 days trying to make my website/portfolio. I'm feeling pretty happy about what I've created though. At first, I only had a static website with simple pages that redirected to one another. Now, I even have a working blog!
+<!--more-->
 <br>
 <br>
 I first tried learning Django and Flask, but I had a hard time with their installation process and combing through their documentation. I think I'll go back to them another time but I wanted to get my website up and running quickly before I go back to school in a week and a half.
