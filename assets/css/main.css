@@ -142,7 +142,7 @@ a:hover {
 }
 
 img.gallery {
-  display: inline;
+  display: block;
   width: 11%;
   height: 11%;
   margin: auto;
@@ -150,9 +150,7 @@ img.gallery {
 
 #meimg {
   display: block;
-  max-width: 550px;
-  height: auto;
-  width: auto;
+  width: 55%;
   margin: auto;
 }
 
