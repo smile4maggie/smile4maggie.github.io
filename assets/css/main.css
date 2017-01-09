@@ -141,6 +141,11 @@ a:hover {
   color: black;
 }
 
+img.gallery {
+  width: 33%;
+  margin: auto;
+}
+
 #meimg {
   display: block;
   max-width: 550px;
