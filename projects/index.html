@@ -2,34 +2,17 @@
 layout: page
 title: Projects
 ---
+{% assign project_order = site.projects | sort: "weight" | reverse %}
 <div class="container">
-  <a href="https://github.com/smile4maggie/personal-website" target="_blank">
-    <h4>PERSONAL WEBSITE</h4>
-  </a>
-  <span class="date" style="font-variant: small-caps; font-size: 20px;">
-    made everywhere
-  </span>
-  <h5>
-    This website is used to exhibit my individual and team software/cs projects, as well as my photographic portfolio. Using Jekyll and HTML/CSS, I created page templates and used layout inheritance, forming full static pages and a blog for my thoughts.
-  </h5>
-
-  <a href="https://github.com/smile4maggie/loop-pedal" target="_blank">
-    <h4>BEETS</h4>
-  </a>
-  <span class="date" style="font-variant: small-caps; font-size: 20px;">
-    made at calhacks
-  </span>
-  <h5>
-    Beets is a iOS audio loop pedal created during my first hackathon: CalHacks 3.0 at UC Berkeley. Using AVFoundation and Swift/Xcode, I was able to track user input, record audio from iOS devices, and play recordings on a loop.
-  </h5>
-
-  <a href="http://bobabuddies.github.io" target="_blank">
-    <h4>BOBA BUDDIES</h4>
-  </a>
+  {% for project in project_order %}
+    <a href="{{ project.link }}" target="_blank">
+      <h4>{{ project.title }}</h4>
+    </a>
     <span class="date" style="font-variant: small-caps; font-size: 20px;">
-      made at girls who code
+      {{ project.made }}
     </span>
     <h5>
-      Boba Buddies is a two-dimensional Javascript web/mobile video game my partner and I created during the final two weeks of the Girls Who Code Summer Immersion program at Square in 2015.
+      {{ project.content | remove: '<p>' | remove: '</p>'}}
     </h5>
+  {% endfor %}
 </div>

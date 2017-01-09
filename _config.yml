@@ -6,6 +6,8 @@ url: smile4maggie.github.io
 collections:
   gallery:
     output: true
+  projects:
+    outout: true
 
 # VARIABLES
 excerpt_separator: <!--more-->
