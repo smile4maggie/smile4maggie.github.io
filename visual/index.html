@@ -7,7 +7,7 @@ title: Visual
 <div id="gallery_row">
   {% for image in site.static_files %}
     {% if image.path contains 'assets/gallery' %}
-      <div class="photo">
+      <div id="photo">
         <img class="gallery" src="{{ image.path }}" alt="image" />
       </div>
       {% if row_len == 1 %}
