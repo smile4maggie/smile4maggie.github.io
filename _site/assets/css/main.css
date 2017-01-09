@@ -1,5 +1,5 @@
 body {
-  background-color: #white;
+  background-color: white;
   margin: auto;
 }
 
@@ -17,7 +17,14 @@ li {
   padding-left: 25px;
 }
 
-.social-icons {
+li.dev-icons {
+  display: inline;
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.social-icons .dev-icons {
 	 padding: 7px 7px 0px 7px;
 }
 
@@ -162,6 +169,17 @@ img.photo:hover {
   -webkit-transition-duration: 0.5s;
 }
 
+img.dev-icon {
+  width: 2.7%;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#dev-icon {
+  font-size: 40px;
+  color: black;
+}
+
 #gallery-space {
   display: block;
   height: 50px;
@@ -174,7 +192,7 @@ img.photo:hover {
 }
 
 #block {
-  height: 15px;
+  height: 7px;
 }
 
 #footer {

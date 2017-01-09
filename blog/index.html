@@ -4,8 +4,8 @@ title: Blog
 ---
 <!--- Loops through all posts --->
 {% for post in paginator.posts %}
-  <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-    <span class="date">
+  <a style="margin-bottom:0; padding-bottom:0;" href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+    <span class="date" style="margin-top:0; padding-top:0;">
       {{ post.date | date: '%B %d, %Y' }}
     </span>
     <br></br>

@@ -8,9 +8,24 @@ title: Projects
     <a href="{{ project.link }}" target="_blank">
       <h4>{{ project.title }}</h4>
     </a>
-    <span class="date" style="font-variant: small-caps; font-size: 20px;">
+    <div id="block"></div>
+    <nav class="dev-icons">
+        <ul>
+          {% for icon in project.icons %}
+            <li class="dev-icons">
+              {% if icon.image_path %}
+                <img class="dev-icon" src="{{ icon.image_path }}"/>
+              {% else %}
+              <i id="dev-icon" class="{{ icon.icon_name }}"></i>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    <span class="date" style="font-variant: small-caps; font-size: 23px;">
       {{ project.made }}
     </span>
+    <div id="block"></div>
     <h5>
       {{ project.content | remove: '<p>' | remove: '</p>'}}
     </h5>
