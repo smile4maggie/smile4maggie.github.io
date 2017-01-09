@@ -148,11 +148,6 @@ img.gallery {
   margin: auto;
 }
 
-#photo {
-  display: block;
-  width: 11%;
-}
-
 #meimg {
   display: block;
   max-width: 550px;
