@@ -4,6 +4,6 @@ title: Visual
 ---
 {% for image in site.static_files %}
   {% if image.path contains 'assets/gallery' %}
-      <img class="gallery" src="{{ image.path }}" alt="image" />
+      <img class="gallery" src="{{ image.path }}" alt="image" /><br>
   {% endif %}
 {% endfor %}
