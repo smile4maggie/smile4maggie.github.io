@@ -7,13 +7,15 @@ title: Visual
 <div id="gallery_row">
   {% for image in site.static_files %}
     {% if image.path contains 'assets/gallery' %}
+      <div class="photo">
         <img class="gallery" src="{{ image.path }}" alt="image" />
-        {% if row_len == 1 %}
-          <br>
-          {% assign row_len = 3 %}
-        {% else %}
-          {% assign row_len = row_len | plus: 1 %}
-        {% endif %}
+      </div>
+      {% if row_len == 1 %}
+        <br>
+        {% assign row_len = 3 %}
+      {% else %}
+        {% assign row_len = row_len | plus: 1 %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
