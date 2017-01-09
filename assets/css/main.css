@@ -21,10 +21,6 @@ li {
 	 padding: 7px 7px 0px 7px;
 }
 
-button {
-
-}
-
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -150,12 +146,24 @@ a:hover {
 img.photo {
   display: inline;
   width: 33%;
+  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
 }
 
+img.photo:hover {
+  opacity: 0.8;
+  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+}
+
+#gallery-space {
+  display: block;
+  height: 100px;
+}
 
 #meimg {
   display: block;
-  width: 33%;
+  max-width: 550px;
   margin: auto;
 }
 

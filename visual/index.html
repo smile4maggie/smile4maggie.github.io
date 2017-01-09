@@ -2,11 +2,10 @@
 layout: page
 title: Visual
 ---
-<div id="gallery_row">
-  {% for image in site.static_files %}
-    {% if image.path contains 'assets/gallery' %}
-        <img class="photo" src="{{ image.path }}" alt="image" />
-    {% endif %}
+{% assign sorted_photos = site.gallery | sort: "weight" | reverse %}
+<ul id="gallery_row">
+  {% for image in sorted_photos %}
+        <a href="{{ image.url }}"><img class="photo" src="{{ image.image_path }}" alt="{{ image.title }}" /></a>
   {% endfor %}
-</div>
+</ul>
 <br>
