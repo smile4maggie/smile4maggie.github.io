@@ -2,7 +2,8 @@
 layout: page
 title: Blog
 ---
-{% for post in site.posts %}
+<!--- Loops through all posts --->
+{% for post in paginator.posts %}
   <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
     <span class="date">
       {{ post.date | date: '%B %d, %Y' }}
@@ -10,3 +11,50 @@ title: Blog
     <br></br>
     <h5>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</h5>
 {% endfor %}
+
+<!-- Pagination links -->
+<div id="gallery-space"></div>
+<div class="pagination">
+  <h5 class-"pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous"><Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </h5>
+</div>
+
+<!--- Writes numbers to pages of posts --->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <h5 class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </h5>
+</div>
+{% endif %}
