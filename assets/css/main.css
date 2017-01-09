@@ -137,23 +137,22 @@ a:hover {
   color: black;
 }
 
-.gallery {
+img.photo-desc {
+  width: 33%;
   margin: auto;
-  background-color: white;
-  width: 50%;
 }
 
 img.photo {
   display: inline;
   width: 33%;
-  transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
 }
 
 img.photo:hover {
   opacity: 0.8;
-  transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
 }
 
 #gallery-space {
