@@ -1,4 +1,10 @@
+# URL
 baseurl: /
 url: smile4maggie.github.io
 
+# COLLECTIONS
+collections:
+  gallery:
+
+# VARIABLES
 excerpt_separator: <!--more-->
