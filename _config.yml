@@ -19,3 +19,6 @@ paginate_path: "/blog/page:num/"
 # GEMS
 gems:
   - octopress-paginate
+
+# GOOGLE SERVICES
+google_analytics: UA-90104807-1
