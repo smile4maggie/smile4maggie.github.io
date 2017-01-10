@@ -1,7 +1,7 @@
 ---
 title: Personal Website
 made: made everywhere
-link: https://github.com/smile4maggie/personal-website
+link: https://github.com/smile4maggie/smile4maggie.github.io
 weight: 3
 icons:
 - title: HTML5
