@@ -187,10 +187,6 @@ img.dev-icon {
   margin: 0;
 }
 
-input.honeypot {
-  display: none;
-}
-
 #dev-icon {
   font-size: 40px;
   color: black;
