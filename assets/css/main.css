@@ -37,6 +37,14 @@ h1 {
   margin-bottom: 0px;
   text-align: center;
   text-transform: uppercase;
+  transition-duration: 1.3s;
+  -webkit-transition-duration: 1.3s;
+}
+
+h1:hover {
+  color: #faf0e6;
+  transition-duration: 1.3s;
+  -webkit-transition-duration: 1.3s;
 }
 
 h2 {
