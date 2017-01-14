@@ -4,12 +4,13 @@ title: Blog
 ---
 <!--- Loops through all posts --->
 {% for post in paginator.posts %}
-  <a style="margin-bottom:0; padding-bottom:0;" href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+  <a style="margin-bottom:0; padding-bottom:0;" href="{{ post.url }}"><h4 style="width: 33%; margin: auto;">{{ post.title }}</h4></a>
     <span class="date" style="margin-top:0; padding-top:0;">
       {{ post.date | date: '%B %d, %Y' }}
     </span>
     <br></br>
     <h5>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</h5>
+    <div id="gallery-space"></div>
 {% endfor %}
 
 <!-- Pagination links -->

@@ -124,6 +124,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (0.12.0)
       jekyll (~> 3.3)
+    jekyll-spotify (0.0.3)
+      jekyll (~> 3.0)
     jekyll-swiss (0.4.0)
     jekyll-theme-architect (0.0.3)
       jekyll (~> 3.3)
@@ -205,6 +207,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-spotify
   json!
   octopress-paginate
 
