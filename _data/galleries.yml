@@ -1,0 +1,54 @@
+- id: anyeezy
+  description: The Anyeezy Collection.
+  imagefolder: /assets/gallery/anya
+  images:
+    - name: anya-colors.png
+    - name: anya-1.jpg
+    - name: anya-2.jpg
+    - name: anya-3.jpg
+- id: lights
+  description: The Lights Collection
+  imagefolder: /assets/gallery/lights
+  images:
+    - name: lights-colors.png
+    - name: lights-1.jpg
+    - name: lights-2.jpg
+    - name: lights-3.jpg
+- id: sadboy
+  description: The Sadboy Collection
+  imagefolder: /assets/gallery/sadboy
+  images:
+    - name: sadboy-colors.png
+    - name: sadboy-1.jpg
+    - name: sadboy-2.jpg
+    - name: sadboy-3.jpg
+- id: handsome
+  imagefolder: /assets/gallery/handsome
+  description: The Handsome Collection
+  images:
+    - name: handsome-colors.png
+    - name: handsome-1.jpg
+    - name: handsome-2.jpg
+- id: newspaper
+  imagefolder: /assets/gallery/newspaper
+  description: The Newspaper Collection
+  images:
+    - name: newspaper-colors.png
+    - name: newspaper-1.jpg
+    - name: newspaper-2.jpg
+- id: giggles
+  imagefolder: /assets/gallery/giggles
+  description: The Giggles Collection
+  images:
+    - name: giggles-colors.png
+    - name: giggles-1.jpg
+    - name: giggles-2.jpg
+    - name: giggles-3.jpg
+- id: yellow
+  imagefolder: /assets/gallery/yellow
+  description: The Yellow Collection
+  images:
+    - name: yellow-colors.png
+    - name: yellow-1.jpg
+    - name: yellow-2.jpg
+    - name: yellow-3.jpg

@@ -3,8 +3,25 @@ layout: page
 ---
 <h6>{{ page.title }}</h6>
 <br>
-<img class="photo-desc" src="{{ page.image_path }}" alt="image" />
 <div id="gallery-space"></div>
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+    <ol>
+    {% for image in gallery.images %}
+      <li>
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}">
+          <img src="{{ gallery.imagefolder }}">
+        </a>
+      </li>
+    {% endfor %}
+    </ol>
+  {% endif %}
+{% endfor %}
 <h5>{{ content | remove: '<p>' | remove: '</p>' }}</h5>
 <div id="gallery-space"></div>
 <div id="gallery-space"></div>
+
+
+<!--- For single image associated with the photo
+<img class="photo-desc" src="{{ page.image_path }}" alt="image" />
+---->

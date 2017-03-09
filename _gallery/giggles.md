@@ -1,6 +1,7 @@
 ---
 title: The Giggle Collection
 layout: gallery
-image_path: /../assets/gallery/giggles-collection.png
-weight: 3
+galleryid: giggles
+#image_path: /../assets/gallery/giggles-collection.png
+#weight: 3
 ---
