@@ -183,7 +183,7 @@ img.photo {
 }
 
 img.photo:hover {
-  opacity: 0.85;
+  /*opacity: 0.85;
   /*webkit-filter: blur(1px); /* Chrome, Safari, Opera */
   /*filter: blur(1px);**/
   /*transition-duration: 0.5s;
