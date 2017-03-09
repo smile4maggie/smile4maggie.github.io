@@ -1,6 +1,6 @@
 ---
 title: The Anyeezy Collection
 layout: gallery
-image_path: /../assets/gallery/anya-collection.ong
+image_path: /../assets/gallery/anya-collection.png
 weight: 1
 ---
