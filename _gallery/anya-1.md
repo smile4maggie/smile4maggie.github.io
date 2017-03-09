@@ -1,6 +1,6 @@
 ---
-title: Anya Fang
+title: The Anyeezy Collection
 layout: gallery
-image_path: /../assets/gallery/anya-1.jpg
+image_path: /../assets/gallery/anya-collection.ong
 weight: 1
 ---
