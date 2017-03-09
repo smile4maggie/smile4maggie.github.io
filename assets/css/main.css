@@ -169,6 +169,11 @@ a:hover {
   color: black;
 }
 
+img.photo-collection {
+  width: 75%;
+  margin: auto;
+}
+
 img.photo-desc {
   width: 33%;
   margin: auto;
