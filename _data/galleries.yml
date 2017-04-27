@@ -52,6 +52,16 @@
     - name: yellow-1.jpg
     - name: yellow-2.jpg
     - name: yellow-3.jpg
+- id: saved
+  imagefolder: /assets/gallery/saved
+  description: The Saved Project
+  images:
+    - name: lights-collection.png
+    - name: sadboy-collection.png
+    - name: newspaper-collection.png
+    - name: handsome-collection.png
+    - name: giggles-collection.png
+    - name: yellow-collection.png
 - id: tongyunfou
   imagefolder: /assets/gallery/tongyunfou
   description: Chinese San Francisco
