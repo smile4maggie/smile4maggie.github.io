@@ -66,7 +66,6 @@
   imagefolder: /assets/gallery/tongyunfou
   description: Chinese San Francisco
   images:
-    - name: DSC_1057.jpg
     - name: DSC_1064.jpg
     - name: DSC_1067.jpg
     - name: DSC_1071.jpg
@@ -115,3 +114,4 @@
     - name: DSC_1154.jpg
     - name: DSC_1158.jpg
     - name: DSC_1159.jpg
+    - name: DSC_1057.jpg
