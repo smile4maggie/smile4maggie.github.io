@@ -52,3 +52,56 @@
     - name: yellow-1.jpg
     - name: yellow-2.jpg
     - name: yellow-3.jpg
+- id: tongyunfou
+  imagefolder: /assets/gallery/tongyunfou
+  description: Chinese San Francisco
+  images:
+    - name: DSC_1057.jpg
+    - name: DSC_1064.jpg
+    - name: DSC_1067.jpg
+    - name: DSC_1071.jpg
+    - name: DSC_1072.jpg
+    - name: DSC_1074.jpg
+    - name: DSC_1076.jpg
+    - name: DSC_1077.jpg
+    - name: DSC_1078.jpg
+    - name: DSC_1079.jpg
+    - name: DSC_1081.jpg
+    - name: DSC_1082.jpg
+    - name: DSC_1084.jpg
+    - name: DSC_1086.jpg
+    - name: DSC_1087.jpg
+    - name: DSC_1089-2.jpg
+    - name: DSC_1089.jpg
+    - name: DSC_1091.jpg
+    - name: DSC_1094.jpg
+    - name: DSC_1103.jpg
+    - name: DSC_1105.jpg
+    - name: DSC_1107.jpg
+    - name: DSC_1110.jpg
+    - name: DSC_1111.jpg
+    - name: DSC_1112.jpg
+    - name: DSC_1115.jpg
+    - name: DSC_1116.jpg
+    - name: DSC_1118.jpg
+    - name: DSC_1119.jpg
+    - name: DSC_1120.jpg
+    - name: DSC_1121.jpg
+    - name: DSC_1123.jpg
+    - name: DSC_1124.jpg
+    - name: DSC_1127-2.jpg
+    - name: DSC_1127.jpg
+    - name: DSC_1128.jpg
+    - name: DSC_1133.jpg
+    - name: DSC_1134.jpg
+    - name: DSC_1137.jpg
+    - name: DSC_1138.jpg
+    - name: DSC_1139.jpg
+    - name: DSC_1140.jpg
+    - name: DSC_1147.jpg
+    - name: DSC_1148.jpg
+    - name: DSC_1149.jpg
+    - name: DSC_1151.jpg
+    - name: DSC_1154.jpg
+    - name: DSC_1158.jpg
+    - name: DSC_1159.jpg

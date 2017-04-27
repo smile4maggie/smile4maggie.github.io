@@ -1,15 +1,7 @@
 ---
-layout: page
-title: Visual
+title: Tong Yun Fou
+layout: gallery
+galleryid: tongyunfou
+image_path: /../assets/gallery/tongyunfou.png
+weight: 2
 ---
-<h6>Tong Yun Fou</h6>
-<br>
-{% assign sorted_photos = site.gallery.tongyunfou | sort: "weight" | reverse %}
-<ul id="gallery_row">
-  {% for image in sorted_photos %}
-      <a href="{{ image.url }}">
-        <img class="photo" src="{{ image.image_path }}" alt="{{ image.title }}" />
-      </a>
-  {% endfor %}
-</ul>
-<br>
