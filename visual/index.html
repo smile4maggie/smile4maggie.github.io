@@ -2,14 +2,11 @@
 layout: page
 title: Visual
 ---
-<h6>Saved</h6>
+<a href="../assets/gallery/saved.html">
+  <img class="photo" src="/../assets/gallery/saved.png" alt="Saved" />
+</a>
 <br>
-{% assign sorted_photos = site.gallery | sort: "weight" | reverse %}
-<ul id="gallery_row">
-  {% for image in sorted_photos %}
-      <a href="{{ image.url }}">
-        <img class="photo" src="{{ image.image_path }}" alt="{{ image.title }}" />
-      </a>
-  {% endfor %}
-</ul>
 <br>
+<a href="../assets/gallery/tongyunfou.html">
+  <img class="photo" src="/../assets/gallery/tongyunfou.png" alt="Tong Yun Fou" />
+</a>
