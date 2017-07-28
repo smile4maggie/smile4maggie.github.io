@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  margin: auto;
 }
 
 ul {
@@ -13,25 +12,23 @@ ul {
 
 ul.social-media {
   list-style-type: none;
-  text-align: left;
-  margin-left: 11%;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
 }
 
 li {
-  display: inline;
+  display: inline-block;
   padding-right: 25px;
   padding-left: 25px;
 }
 
 li.dev-icons {
-  display: inline;
+  display: block;
   color: black;
   padding-right: 10px;
   padding-left: 10px;
-  float: right;
 }
 
 .dev-icons {
@@ -39,7 +36,7 @@ li.dev-icons {
 }
 
 i:hover {
-  color: #e8dacb;
+  color: white;
 }
 
 /* Home Page Header */
@@ -49,19 +46,25 @@ h1 {
   font-weight: bolder;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  margin-left: 7%;
   margin-top: 5%;
-  margin-left: 9%;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   transition-duration: 1s;
   -webkit-transition-duration: 1s;
 }
 
+h1.title {
+  margin: auto;
+}
+
 h1:hover {
-  color: #e8dacb;
+  color: #DB5A7B;
   transition-duration: 0.3s;
   -webkit-transition-duration: 0.5s;
+}
+
+h1.title:hover {
+    color: #e8dacb;
 }
 
 h2 {
@@ -71,6 +74,7 @@ h2 {
   padding-bottom: 0;
   letter-spacing: 5px;
   font-weight: lighter;
+  text-align: center;
 }
 
 h3 {
@@ -99,8 +103,6 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1.33px;
   margin-bottom: 0px;
-  margin-left: 30%;
-  position:static;
 }
 
 h4:hover{
@@ -117,8 +119,6 @@ h6 {
   letter-spacing: 1.33px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  margin-left: 50%;
-  position:static;
 }
 
 /* Written Paragraphs */
@@ -126,9 +126,8 @@ h5 {
   font-size: 15px;
   font-weight: 100;
   text-align: center;
-  margin-left: 50%;
-  position:static;
-  width: 33%;
+  margin-left: 25%;
+  width: 50%;
   letter-spacing: 1.33px;
   font-family: 'Cardo', sans-serif;
 }
@@ -215,7 +214,6 @@ img.photo:hover {
 img.dev-icon {
   width: 2.7%;
   padding-bottom: 0;
-  margin: 0;
 }
 
 #dev-icon {
@@ -228,25 +226,41 @@ img.dev-icon {
   height: 50px;
 }
 
-#page-content {
-  float: right;
-  position: absolute;
-  top: 20%;
-}
-
 #meimg {
   display: block;
-  max-width: 550px;
-  margin-left: 7.5%;
+  height: auto;
+  max-width: 95%;
+  margin-left: 15%;
 }
 
 #block {
   height: 7px;
 }
 
+#sidebar {
+  position: fixed;
+  background-color: rgba(232, 218, 203, 0.7);
+  padding-top: 2%;
+  left: 0;
+  top: 0%;
+  bottom: 0;
+  width: 35%;
+  min-width: 35%;
+}
+
+#page-content {
+  position: absolute;
+  right: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 65%;
+}
+
 #footer {
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 20px;
   background: black;

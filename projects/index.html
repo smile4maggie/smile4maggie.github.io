@@ -3,7 +3,6 @@ layout: page
 title: Projects
 ---
 {% assign project_order = site.projects | sort: "weight" | reverse %}
-<div class="container">
   {% for project in project_order %}
     <a href="{{ project.link }}" target="_blank">
       <h4>{{ project.title }}</h4>
@@ -16,13 +15,13 @@ title: Projects
               {% if icon.image_path %}
                 <img class="dev-icon" src="{{ icon.image_path }}"/>
               {% else %}
-              <i id="dev-icon" class="{{ icon.icon_name }}"></i>
+                <i id="dev-icon" class="{{ icon.icon_name }}"></i>
               {% endif %}
             </li>
           {% endfor %}
         </ul>
       </nav>
-    <span class="date" style="font-family: 'Montserrat'; font-weight: 100; font-variant: small-caps; font-size: 22px;">
+    <span class="date" style="font-family: 'Montserrat'; font-weight: 100; font-variant: small-caps; font-size: 22px; position: absolute;">
       {{ project.made }}
     </span>
     <div id="block"></div>
@@ -30,4 +29,3 @@ title: Projects
       {{ project.content | remove: '<p>' | remove: '</p>'}}
     </h5>
   {% endfor %}
-</div>
