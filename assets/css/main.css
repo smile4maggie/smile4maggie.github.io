@@ -239,7 +239,7 @@ img.dev-icon {
 
 #sidebar {
   position: fixed;
-  background-color: rgba(232, 218, 203, 0.7);
+  background-color: white/* rgba(232, 218, 203, 0.5)*/;
   padding-top: 2%;
   left: 0;
   top: 0%;
