@@ -3,6 +3,7 @@ layout: page
 title: Blog
 ---
 <h1 class="title" style="font-size: 40px">BLOG POSTS</h1>
+<br><br>
 <!--- Loops through all posts --->
 {% for post in paginator.posts %}
   <a style="margin-bottom:0; padding-bottom:0;" href="{{ post.url }}"><h4 style="width: 33%; margin: auto;">{{ post.title }}</h4></a>
