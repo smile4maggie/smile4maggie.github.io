@@ -1,3 +1,9 @@
+/*
+SAVED COLORS:
+Golden: #e8dacb
+Pink: #DB5A7B
+*/
+
 body {
   background-color: white;
 }
@@ -36,7 +42,7 @@ li.dev-icons {
 }
 
 i:hover {
-  color: white;
+  color: DB5A7B;
 }
 
 /* Home Page Header */
@@ -64,7 +70,7 @@ h1:hover {
 }
 
 h1.title:hover {
-    color: #e8dacb;
+    color: black;
 }
 
 h2 {
@@ -106,7 +112,7 @@ h4 {
 }
 
 h4:hover{
-  color: #e8dacb;
+  color: #DB5A7B;
   cursor: pointer;
 }
 
@@ -168,7 +174,7 @@ p.nav {
 }
 
 p.nav:hover {
-  color: #e8dacb;
+  color: #DB5A7B;
   cursor: pointer;
 }
 
@@ -239,7 +245,7 @@ img.dev-icon {
 
 #sidebar {
   position: fixed;
-  background-color: rgba(232, 218, 203, 0.7);
+  background-color: white/* rgba(232, 218, 203, 0.5)*/;
   padding-top: 2%;
   left: 0;
   top: 0%;
