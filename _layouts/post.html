@@ -1,10 +1,10 @@
 ---
 layout: page
 ---
-<h6 style="margin-bottom:0; padding-bottom:0; width: 33%; margin: auto;">{{ page.title }}</h6>
+<h4 class="post" style="width: 65%; margin: auto;">{{ page.title }}</h4>
 <div id="block"></div>
-<span class="date">
+<h3 style="font-weight: 100; font-variant: small-caps">
   {{ page.date | date: '%B %d, %Y' }}
-</span>
+</h3>
 <br></br>
 <h5>{{ content | remove: '<p>' | remove: '</p>' }}</h5>

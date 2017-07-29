@@ -5,7 +5,7 @@ link: https://github.com/smile4maggie/loop-pedal
 weight: 2
 icons:
 - title: Swift
-  image_path: /../assets/devicon-master/icons/swift/swift-bw.svg
+  icon_name: devicon-swift-plain
 - title: Adobe Photoshop
   icon_name: devicon-photoshop-plain
 - title: Adobe Illustrator

@@ -22,10 +22,10 @@ title: Projects
           {% endfor %}
         </ul>
       </nav>
-    <span class="date" style="font-family: 'Montserrat'; font-weight: 100; font-variant: small-caps; font-size: 22px; position: absolute;">
-      {{ project.made }}
-    </span>
-    <div id="block"></div>
+      <h3 style="font-family: 'Montserrat'; font-weight: 100; font-variant: small-caps; font-size: 22px;
+      text-align: center;">
+        {{ project.made }}
+      </h3>
     <h5>
       {{ project.content | remove: '<p>' | remove: '</p>'}}
     </h5>

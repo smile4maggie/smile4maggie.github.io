@@ -31,7 +31,7 @@ li {
 }
 
 li.dev-icons {
-  display: block;
+  display: inline-block;
   color: black;
   padding-right: 10px;
   padding-left: 10px;
@@ -42,7 +42,7 @@ li.dev-icons {
 }
 
 i:hover {
-  color: DB5A7B;
+  color: #DB5A7B;
 }
 
 /* Home Page Header */
@@ -59,14 +59,14 @@ h1 {
   -webkit-transition-duration: 1s;
 }
 
-h1.title {
-  margin: auto;
-}
-
 h1:hover {
   color: #DB5A7B;
   transition-duration: 0.3s;
   -webkit-transition-duration: 0.5s;
+}
+
+h1.title {
+  margin: auto;
 }
 
 h1.title:hover {
@@ -109,6 +109,10 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1.33px;
   margin-bottom: 0px;
+}
+
+h4.post:hover {
+  color: black;
 }
 
 h4:hover{
@@ -218,7 +222,8 @@ img.photo:hover {
 }
 
 img.dev-icon {
-  width: 2.7%;
+  display: inline-block;
+  width: 8%;
   padding-bottom: 0;
 }
 
@@ -269,6 +274,16 @@ img.dev-icon {
   right: 0;
   width: 100%;
   height: 20px;
+  background: black;
+}
+
+#footer-bar {
+  position: inherit;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10%;
   background: black;
 }
 
