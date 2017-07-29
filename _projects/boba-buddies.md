@@ -1,6 +1,6 @@
 ---
 title: Boba Buddies
-made: made at girls who code
+made: MADE AT GIRLS WHO CODE
 link: http://bobabuddies.github.io
 weight: 1
 icons:

@@ -1,6 +1,6 @@
 ---
 title: Beets
-made: made at calhacks
+made: MADE AT CALHACKS
 link: https://github.com/smile4maggie/loop-pedal
 weight: 2
 icons:
