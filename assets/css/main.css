@@ -32,6 +32,7 @@ li {
 
 li.dev-icons {
   display: inline-block;
+  margin: 0 auto; 
   color: black;
   padding-right: 10px;
   padding-left: 10px;
@@ -50,8 +51,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: bolder;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin: 0 auto; 
   margin-top: 5%;
   text-align: center;
   text-transform: uppercase;
