@@ -244,8 +244,9 @@ img.dev-icon {
 
 #meimg {
   display: block;
+  position: relative;
   height: auto;
-  max-width: 90%;
+  max-width: 80%;
   margin-left: 15%;
 }
 
