@@ -3,15 +3,17 @@ layout: page
 title: Contact
 ---
 <h1 class="title">CONTACT ME<h1>
-<form method="POST" action="http://formspree.io/maggiedluo@gmail.com">
-	<input required type="name" style="width: 300px; position: relative;" name="Name" placeholder="Your name" required/>
-  	<input required type="email" style="width: 300px; position: relative;" name="Email" placeholder="Your email" required/>
-  <br>
-  	<textarea required style="width: 300px; height: 200px;" name="Message" placeholder="Your message"></textarea>
-  <br>
-  <button type="submit">Send</button>
-  <input type="hidden" name="_next" value="/../thanks"/>
-  <input type="hidden" name="_subject" value="Dear Maggie,"/>
-  <input type="hidden" name="_format" value="plain"/>
-  <input class="honeypot" type="text" name="_gotcha" style="display:none" />
-</form>
+<div>
+	<form method="POST" action="http://formspree.io/maggiedluo@gmail.com">
+		<input required type="text" style="width: 200px;" name="Name" placeholder="Your name" required/>
+		<input required type="email" style="width: 200px;" name="Email" placeholder="Your email" required/>
+		<br>
+			<textarea required style="width: 425px; height: 100px;" name="Message" placeholder="Your message"></textarea>
+		<br>
+	<button type="submit">Send</button>
+	<input type="hidden" name="_next" value="/../thanks"/>
+	<input type="hidden" name="_subject" value="Dear Maggie,"/>
+	<input type="hidden" name="_format" value="plain"/>
+	<input class="honeypot" type="text" name="_gotcha" style="display:none" />
+	</form>
+</div>
