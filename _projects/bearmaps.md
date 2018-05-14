@@ -1,6 +1,6 @@
 ---
 title: BearMaps
-made: MADE IN CS 61B
+made: made in data structures
 weight: 5
 icons:
 - title: Java

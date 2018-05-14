@@ -32,6 +32,7 @@ li {
 
 li.dev-icons {
   display: inline-block;
+  margin: 0 auto; 
   color: black;
   padding-right: 10px;
   padding-left: 10px;
@@ -48,13 +49,12 @@ i:hover {
 /* Home Page Header */
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bolder;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin: 0 auto; 
   margin-top: 5%;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: lowercase;
   transition-duration: 1s;
   -webkit-transition-duration: 1s;
 }
@@ -109,6 +109,11 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1.33px;
   margin-bottom: 0px;
+}
+
+h4.unlinked-title:hover {
+  color: black;
+  cursor: default;
 }
 
 h4.post:hover {
@@ -172,7 +177,6 @@ p.nav {
   text-align: center;
   font-family: 'Cardo', sans-serif;
   text-transform: lowercase;
-  text-decoration: none;
   transition-duration: 1.3s;
   -webkit-transition-duration: 1.3s;
 }
@@ -185,6 +189,7 @@ p.nav:hover {
 a {
   font-family: 'Cardo', sans-serif;
   font-size: 20px;
+  padding-bottom: 20px;
   text-decoration: none;
   color: inherit;
   transition-duration: 0s;
@@ -228,7 +233,7 @@ img.dev-icon {
 }
 
 #dev-icon {
-  font-size: 40px;
+  font-size: 45px;
   color: black;
 }
 
@@ -239,9 +244,9 @@ img.dev-icon {
 
 #meimg {
   display: block;
-  height: auto;
-  max-width: 95%;
-  margin-left: 15%;
+  margin: 0 auto; 
+  max-width: 80%;
+  margin-left: 10%;
 }
 
 #block {
@@ -264,7 +269,7 @@ img.dev-icon {
   right: 0;
   padding-top: 10%;
   padding-bottom: 10%;
-  width: 65%;
+  width: 70%;
 }
 
 #footer {

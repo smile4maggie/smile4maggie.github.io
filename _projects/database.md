@@ -1,6 +1,6 @@
 ---
 title: Database
-made: MADE IN CS 61B
+made: made in data structures
 weight: 4
 icons:
 - title: Java
