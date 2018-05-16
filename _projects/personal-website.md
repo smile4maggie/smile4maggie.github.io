@@ -11,4 +11,4 @@ icons:
 - title: Ruby
   icon_name: devicon-ruby-plain-wordmark
 ---
-This website is used to exhibit my individual and team software/cs projects, as well as my photographic portfolio. Using Jekyll and HTML/CSS, I created page templates and used layout inheritance, forming full static pages and a blog for my thoughts.
+This website is used to exhibit my individual and team software/cs projects. Using the Jekyll Ruby gem and HTML/CSS, I created page templates and incorporated layout inheritance to simplify creating new pages and adding a blog.
