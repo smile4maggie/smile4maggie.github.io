@@ -232,6 +232,27 @@ img.dev-icon {
   padding-bottom: 0;
 }
 
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #DB5A7B;
+    color: white;
+    cursor: pointer;
+}
+
 #dev-icon {
   font-size: 45px;
   color: black;
