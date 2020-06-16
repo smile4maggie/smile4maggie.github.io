@@ -14,7 +14,7 @@
 <body>
   <div id="sidebar">
     <a class="banner" href="/"><h1>Maggie Luo</h1></a>
-    <h3>computer science + art history</h3>
+    <h3>computer science + social good</h3>
     <br>
     <div id="block"></div>
     <img id="meimg" class="meimg" alt="image" src="/../assets/images/me.png">
@@ -59,8 +59,64 @@
     </div>
   </div>
   <div id="page-content">
-      <h1 class="title"">PROJECTS</h1>
+      <h1 class="title">PROJECTS</h1>
 
+  
+    
+      <a href="https://github.com/smile4maggie/anova_site_rubric" target="_blank">
+        <h4>URM School Searcher</h4>
+      </a>
+    
+    <nav class="dev-icons">
+        <ul>
+          
+            <li class="dev-icons">
+              
+                <i id="dev-icon" class="devicon-python-plain"></i>
+              
+            </li>
+          
+        </ul>
+      </nav>
+      <h3 style="font-family: 'Montserrat'; font-weight: 100; font-size: 22spx;
+      text-align: center;">
+        made in anova
+      </h3>
+    <h5>
+      The Underrepresented Minority (URM) School Searcher uses Python and the requests-html library to web scrape GreatSchools.org for public and charter schools in a desired city and state. The script returns a response listing all schools in the area with their racial demographics, low-income percentage, and english-language learning percentages. The list is then sorted by a custom ranking, where schools with higher rates of underrepresented minorities represent target sites that likely need more computer science resources.
+
+    </h5>
+  
+    
+      <a href="https://github.com/smile4maggie/anova_finance" target="_blank">
+        <h4>Automated Web Form</h4>
+      </a>
+    
+    <nav class="dev-icons">
+        <ul>
+          
+            <li class="dev-icons">
+              
+                <i id="dev-icon" class="devicon-python-plain"></i>
+              
+            </li>
+          
+            <li class="dev-icons">
+              
+                <i id="dev-icon" class="devicon-chrome-plain-wordmark"></i>
+              
+            </li>
+          
+        </ul>
+      </nav>
+      <h3 style="font-family: 'Montserrat'; font-weight: 100; font-size: 22spx;
+      text-align: center;">
+        made in anova
+      </h3>
+    <h5>
+      The Automated Finance Web Form uses Selenium and the Google Sheets API to automatically fill out the purchase request web form on UC Berkeley’s club finance page. I made requests to the response spreadsheet of a Google Form and used the XPath of web elements on the Callink page to insert matching data, reducing the average time for submitting a purchase request from 35s to 3s (-91%).
+
+    </h5>
   
     
         <h4 class="unlinked-title">Electronic Drink Dispenser</h4>
@@ -82,53 +138,6 @@
       </h3>
     <h5>
       The Electronic Drink Dispenser uses a chest freezer, 12W battery, force sensor, flex sensor, water pump, motor, LED screen, and Arduino One to both mechanically and electronically dispense liquid from a 5 gallon jug. I programmed a switch in C++ using an Arduino One to send a current to the motor that powers the water pump depending on the bend-angle of a resistance-detecting flex sensor wired to a handle on the chest freezer. I also implemented a custom conversion equation from the force sensor’s Newtons to liters to be displayed on the LED screen.
-
-    </h5>
-  
-    
-        <h4 class="unlinked-title">BearMaps</h4>
-    
-    <nav class="dev-icons">
-        <ul>
-          
-            <li class="dev-icons">
-              
-                <i id="dev-icon" class="devicon-java-plain-wordmark"></i>
-              
-            </li>
-          
-        </ul>
-      </nav>
-      <h3 style="font-family: 'Montserrat'; font-weight: 100; font-size: 22spx;
-      text-align: center;">
-        made in data structures
-      </h3>
-    <h5>
-      BearMaps is a Java web-mapping application that uses real-world map data to visualize
-roads, locations, and shortest paths. I built a QuadTree class to recursively store and return image tiles at the best resolutions for a given zoom depth, and incorporated shortest-path finding and autocomplete using the A* algorithm and Trie data structures.
-
-    </h5>
-  
-    
-        <h4 class="unlinked-title">Database</h4>
-    
-    <nav class="dev-icons">
-        <ul>
-          
-            <li class="dev-icons">
-              
-                <i id="dev-icon" class="devicon-java-plain-wordmark"></i>
-              
-            </li>
-          
-        </ul>
-      </nav>
-      <h3 style="font-family: 'Montserrat'; font-weight: 100; font-size: 22spx;
-      text-align: center;">
-        made in data structures
-      </h3>
-    <h5>
-      Database is a Java program that parses SQL queries and conducts table operations such as ‘select’, ‘create table’, ‘insert into’ (insert row), ‘drop’ (delete), and ‘save’. Using .tbl files and creating tables during runtime, the user can store and update data on their own computers.
 
     </h5>
   
@@ -245,7 +254,7 @@ roads, locations, and shortest paths. I built a QuadTree class to recursively st
   
 
   </div>
-    <div id="footer"><h3 class="footer">Maggie Luo • 2018</h3></div>
+    <div id="footer"><h3 class="footer">Maggie Luo • <script>document.write(new Date().getFullYear())</script></h3></div>
     
   </body>
 </html>

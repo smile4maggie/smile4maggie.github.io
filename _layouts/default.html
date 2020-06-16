@@ -5,54 +5,55 @@
   <title>Maggie Luo</title>
   <link rel="icon" href="/assets/images/ml-logo.png">
   <link type="text/css" rel="stylesheet" href="/../assets/css/main.css">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans|Cardo" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="sidebar">
     <a class="banner" href="/"><h1>Maggie Luo</h1></a>
-    <h3>computer science + art history</h3>
+    <h3>computer science + social good</h3>
     <br>
     <div id="block"></div>
-    <img id="meimg" class="meimg" alt="image" src="/../assets/images/twitter.png">
+    <img id="meimg" class="meimg" alt="image" src="/../assets/images/me.png">
     <div id="block"></div>
     <br>
     <nav class="social-icons">
-		    <ul class="social-media">
+        <ul class="social-media">
           <li>
-						<a href="https://twitter.com/smile4maggie" target="_blank">
-							<i class="fa fa-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/maggiedluo" target="_blank">
-							<i style="text-align: left" class="fa fa-linkedin"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://instagram.com/smile4maggie/" target="_blank">
-							<i class="fa fa-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/smile4maggie" target="_blank">
-							<i class="fa fa-github"></i>
-						</a>
-					</li>
+            <a href="https://twitter.com/smile4maggie" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/maggiedluo" target="_blank">
+              <i style="text-align: left" class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/smile4maggie/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/smile4maggie" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     <div>
       <div>
         <p class="nav">
-            <a href="/../about"> about </a>
+            <a class="nav" href="/../about"> about </a>
             <br>
-            <a href="/../projects"> projects </a>
+            <a class="nav" href="/../projects"> projects </a>
             <br>
-            <a href="/../visual"> design </a>
+            <a class="nav" href="/../assets/resume/resume.pdf" target="_blank"> resume </a>
             <br>
-            <a href="/../blog"> blog </a>
-            <br>
-            <a href="/../contact"> contact </a>
+            <a class="nav" href="/../contact"> contact </a>
         </p>
       </div>
     </div>
@@ -60,8 +61,7 @@
   <div id="page-content">
       {{ content }}
   </div>
-    <div id="footer-block"></div>
-    <div id="footer"><h3 class="footer">Maggie Luo • 2017</h3></div>
+    <div id="footer"><h3 class="footer">Maggie Luo • <script>document.write(new Date().getFullYear())</script></h3></div>
     {% if jekyll.environment == 'production' %}
       {% include google-analytics.html %}
     {% endif %}
