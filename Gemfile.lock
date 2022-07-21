@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/flori/json.git
-  revision: c7a6e31f3abde6efbf0629dea68b43bebb62c94a
+  remote: https://github.com/flori/json.git
+  revision: 7f4cfd853f2c919d854fb95548a19980feff17e8
   branch: v1.8
   specs:
-    json (1.8.5)
+    json (1.8.6)
 
 GEM
   remote: https://rubygems.org/
@@ -193,10 +193,10 @@ GEM
       faraday (~> 0.8, < 1.0)
     terminal-table (1.7.3)
       unicode-display_width (~> 1.1.1)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unicode-display_width (1.1.2)
 
